@@ -80,8 +80,8 @@ body{
 
 .mcard{
     position: relative;
-    width: 90vw;
-    height: 150px;
+    width: 95vw;
+    height: 190px;
     background:  var(--bckg-contmenu);
     border-radius: 20px;
     box-shadow: 0 7px 20px rgba(0,0,0,0.15);
@@ -95,8 +95,8 @@ body{
 
 
 .m-img{
-    height: 140px;
-    width: 35vw;
+    height: 180px;
+    width: 43vw;
     border-radius: 20px;
     box-shadow: 0 7px 7px rgba(0,0,0,0.35);
     overflow: hidden;
@@ -113,29 +113,28 @@ body{
     object-fit: cover;
 }
 
+.content-info{
+    width: 55vw;
+    
+}
+
 .content-h3{
-    height: 140px;
-    width: 30vw;
+    padding-left: 7px;
     /* background: #a222e3;  */
-    padding: 20px;
-    display: flex;
-    /* justify-content: center; */
-    align-items: center
+
 
 }
 .m-h3{
-    font-size: 1.1em;
+    font-size: 1em;
     font-weight: 600;
     color: var(--h3-clr);
-    margin-bottom: 10px;
 
 }
 
 .content-h4{
-    height: 140px;
-    width: 25vw;
+
     /* background: #3336ff;  */
-    padding: 10px 0;
+    padding: 10px 7px;
 
 }
 .m-h4{
@@ -172,40 +171,40 @@ body{
 
 
 
-  .menu-card{
-    min-height: 20vh;
+    .menu-card{
 
-        
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
 
-  }
+    }
     
-  .mcard{
-    width: 320px;
-
-    margin: 15px;
-  }
-
-  .content-h3{
-    width: 25vw;
-
-  }
-
+    .mcard{
+        width: 320px;
+        height: 160px;
+        margin: 15px;
+    }
   
-  .m-h3{
-    font-size: .9em;
-  }
+    .m-img{
+        height: 150px;
+        width: 150px;
+    }
 
-  .content-h4{
-    width: 30vw;
 
-}
-  .m-h4{
-    font-size: .8em;
-  }
+    .content-info{
+        width: 190px;
+        
+    }
+  
+    .m-h3{
+        font-size: .9em;
+    }
+
+
+    .m-h4{
+        font-size: .8em;
+    }
 
 }
 
@@ -215,9 +214,12 @@ body{
         width: 340px;
     
     }
-
-    .m-h3{
-        font-size: 1em;
+    .m-img{
+        width: 160px;
+    }
+    .content-info{
+        width: 180px;
+        
     }
 
 
@@ -227,12 +229,20 @@ body{
     
     .mcard{
         width: 390px;
-    
-    }
-    .m-h3{
-        font-size: 1.2em;
+        height: 170px;
     }
 
+    .m-img{
+        height: 160px;
+        width: 160px;
+    }
+    .content-info{
+        width: 230px;
+        
+    }
+    .m-h3{
+        font-size: 1em;
+    }
     .m-h4{
         font-size: .9em;
     }
@@ -242,15 +252,15 @@ body{
     
     .mcard{
         width: 450px;
-    
     }
-    .m-h3{
-        font-size: 1.4em;
+    .m-img{
+        width: 170px;
+    }
+    .content-info{
+        width: 280px;
+        
     }
 
-    .m-h4{
-        font-size: .9em;
-    }
 }
 
 
@@ -258,7 +268,14 @@ body{
     
     .mcard{
         width: 500px;
-    
+    }
+    .m-img{
+        width: 190px;
+    }
+    .content-info{
+        width: 310px;
+        
     }
 }
+
 
